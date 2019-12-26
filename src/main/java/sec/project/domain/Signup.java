@@ -12,7 +12,7 @@ public class Signup extends AbstractPersistable<Long> {
         super();
     }
 
-    public Signup(String name, String address) {
+    public Signup(Long id, String name, String address) {
         this();
         this.name = name;
         this.address = address;
