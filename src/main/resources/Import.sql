@@ -13,5 +13,5 @@ VALUES
 INSERT INTO UserRole
 (UserId, Role)
 VALUES
-(1, 'User'),
-(2, 'Admin');
+(1, 'ROLE_USER'),
+(2, 'ROLE_ADMIN');
